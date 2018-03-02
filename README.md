@@ -1,7 +1,9 @@
 # p5.js-MiniProjects
 Some fun little things I made with p5.js
 
-[VibraCircle](https://r3dnw.github.io/p5.js-MiniProjects/Projects/VibraCircle/index.html)
+[StringCircle](https://r3dnw.github.io/p5.js-MiniProjects/Projects/StringCircle/index.html)
+
+[StringMonster](https://r3dnw.github.io/p5.js-MiniProjects/Projects/StringMonster/index.html)
 
 [Spirals](https://r3dnw.github.io/p5.js-MiniProjects/Projects/Spiral/index.html)
 
