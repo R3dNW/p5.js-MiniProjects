@@ -33,3 +33,8 @@ PhysObj.prototype.AddForce = function(force) {
 PhysObj.prototype.Momentum = function() {
 	return this.vel.copy().mult(this.mass);
 }
+
+PhysObj.prototype.SetMass = function(value){
+	this.mass = value;
+	this.sqrtMass = sqrt(value);
+}
