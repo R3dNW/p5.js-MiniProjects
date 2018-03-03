@@ -1,4 +1,4 @@
-function string(resolution, rotations, color_mid=null, color_ends=null, spiral=false){
+function string(resolution, rotations, color_mid=null, color_ends=null){
 	this.resolution = resolution;
 	this.rotations = rotations;
 
@@ -19,8 +19,6 @@ function string(resolution, rotations, color_mid=null, color_ends=null, spiral=f
 	this.radius_screenSize_ratio = 1/5;
 	this.radius;
 	this.timeScale = 0.05 * (0.001);
-
-	this.spiral = spiral;
 }
 
 
@@ -53,8 +51,8 @@ string.prototype.draw = function(){
 
 	if (!this.fixedColor){
 		colorMode(HSB);
-		this.color_mid =  color((t * 10 + 60) % 360, 255, 255);
-		this.color_ends = color((t * 10     ) % 360, 255, 255);
+		this.color_mid =  color((t * 60 + 60) % 360, 255, 255);
+		this.color_ends = color((t * 60     ) % 360, 255, 255);
 		colorMode(RGB);
 	}
 
