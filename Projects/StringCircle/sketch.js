@@ -6,7 +6,7 @@ function preload(){
 
 function setup(){
 	createCanvas(window.innerWidth, window.innerHeight);
-
+	noiseSeed(255);
 	stringCircle = new string(1024, 5.32);
 }
 
